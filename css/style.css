@@ -1,6 +1,15 @@
+@import url(reset.css);
 * {
   padding: 0;
   margin: 0;
+}
+.content__container {
+  max-width: 1168px;
+  margin: 0 auto;
+}
+
+body {
+  font-family: "Poppins", sans-serif;
 }
 
 header {
@@ -32,7 +41,6 @@ header nav ul li {
 
 header nav ul li a {
   text-decoration: none;
-  font-family: "Poppins", sans-serif;
   font-weight: 400;
   font-size: 15px;
   line-height: 20px;
@@ -115,6 +123,7 @@ header nav ul li:last-of-type a {
   padding-right: 62px;
   box-sizing: border-box;
   font-family: "Poppins", sans-serif;
+  position: relative;
 }
 
 .sunset article {
@@ -145,6 +154,7 @@ header nav ul li:last-of-type a {
   padding-right: 87px;
   box-sizing: border-box;
   font-family: "Poppins", sans-serif;
+  position: relative;
 }
 
 .leafs article {
@@ -217,6 +227,7 @@ header nav ul li:last-of-type a {
   padding-right: 106px;
   box-sizing: border-box;
   font-family: "Poppins", sans-serif;
+  position: relative;
 }
 
 .star article {
@@ -447,7 +458,7 @@ color: #FFFFFF;
 margin-bottom: 20px;
 }
 .tools .container a {
-    font-family: 'Poppins', sans-serif;
+  font-family: 'Poppins', sans-serif;
   font-size: 16px;
   line-height: 20px;
   letter-spacing: 0.4px;
@@ -478,8 +489,108 @@ margin-bottom: 20px;
   background-size: cover;
 }
 
+/* footer */
 
-/* icons block */
+footer {
+  background-color: #000000;
+  padding: 100px 0;
+}
+footer .container {
+  max-width: 1168px;
+  margin: auto;
+  display: flex;
+  justify-content: space-between;
+}
+footer .container:nth-child(2){
+  border-top: solid 2px white;
+  border-bottom: 2px solid white;
+  padding: 40px 0;
+}
+footer .pages {
+  padding-bottom: 36px;
+}
+footer .pages img{
+  margin-bottom: 20px;
+}
+footer .left_first p{
+font-size: 13px;
+line-height: 20px;
+color: #C0C0C0;
+}
+footer .right_first {
+  display: flex;
+}
+footer .right_first .footer_paragraph {
+font-size: 14px;
+line-height: 20px;
+letter-spacing: 2px;
+text-transform: uppercase;
+color: #C0C0C0;
+}
+footer .right_first ul{
+  min-width: 220px;
+  margin-left: 15px;
+  list-style: none;
+}
+footer .right_first ul li{
+  margin-bottom: 10px;
+}
+footer .right_first ul a{
+font-size: 14px;
+line-height: 20px;
+color: #FFFFFF;
+text-decoration: none;
+margin-bottom: 10px;
+}
+footer .container .left_first h4 {
+font-size: 14px;
+line-height: 20px;
+letter-spacing: 2px;
+text-transform: uppercase;
+color: #FFFFFF;
+margin-bottom: 20px;
+}
+footer form {
+  width: 100%;
+  max-width: 458px;
+  background: #F9FAFB;
+  border-radius: 12px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding-right: 6px;
+  box-sizing: border-box;
+  height: 52px;
+}
+footer form input {
+  line-height: 52px;
+  border: none;
+  background-color: transparent;
+  width: 80%;
+}
+footer form button {
+  width: 63px;
+  height: 30px;
+  background: #000000;
+  border-radius: 11px;
+  border: none;
+  cursor: pointer;
+}
+.social_links {
+  padding-top: 58px;
+}
+footer .social_links .left_first p a{
+font-size: 13px;
+line-height: 20px;
+color: #C0C0C0;
+text-decoration: none;
+}
+.social_links ul{
+  display: flex;
+  column-gap: 20px;
+}
+
+/* icons bar */
 .bottom_icons {
   position: absolute;
   right: 40px;
@@ -507,14 +618,14 @@ color: #FFFFFF;
   position: relative;
   bottom: -6px;
 }
-.bottom_icons li :nth-child(2):before {
+.bottom_icons li:nth-child(2):before {
   background-image: url(../images/IMAGE_icons2.svg);
 }
-.bottom_icons li :nth-child(3):before {
+.bottom_icons li:nth-child(3):before {
   background-image: url(../images/IMAGE_icons3.svg);
   width: 32px;
 }
-.bottom_icons li :nth-child(4):before {
+.bottom_icons li:nth-child(4):before {
   background-image: url(../images/IMAGE_icons4.svg);
-  width: 18px;
+  width: 10px;
 }
