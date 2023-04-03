@@ -329,6 +329,7 @@ header nav ul li:last-of-type a {
   line-height: 42px;
   text-align: center;
   color: #FFFFFF;
+  margin-bottom: 15px;
 }
 
 .what_we_do h4 {
@@ -338,6 +339,7 @@ header nav ul li:last-of-type a {
   line-height: 30px;
   text-align: center;
   color: #C0C0C0;
+  margin-bottom: 42px;
 }
 
 .what_we_do .cards {
@@ -420,24 +422,24 @@ background-color: #000000;
 }
 .tools .container {
  margin: auto;
- min-width: 1240px;
+ max-width: 1240px;
  min-height: 540px;
  display: flex;
  align-items: center;
 }
 .tools .container article {
-  margin-left: 100px;
+  max-width: 514px;
 }
 .tools .container h4 {
-font-family: 'Poppins';
-font-style: normal;
-font-weight: 400;
-font-size: 14px;
-line-height: 20px;
-letter-spacing: 2px;
-text-transform: uppercase;
-color: #C0C0C0;
-margin-bottom: 6px;
+  font-family: 'Poppins';
+  font-style: normal;
+  font-weight: 400;
+  font-size: 14px;
+  line-height: 20px;
+  letter-spacing: 2px;
+  text-transform: uppercase;
+  color: #C0C0C0;
+  margin-bottom: 6px;
 }
 .tools .container h3 {
   font-family: 'Poppins';
