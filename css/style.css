@@ -663,3 +663,32 @@ footer .social_links .left_first p a {
   background-image: url(../images/IMAGE_icons4.svg);
   width: 10px;
 }
+
+/* @keyframes slide {
+  0%{
+    position: absolute;
+  }
+  10%{
+    left: 4%;
+    top: 3%;
+    transform: rotate(280deg);
+  }
+  70%{
+    left: 5%;
+    top: 3%;
+    transform: rotate(280deg);
+  }
+  100%{
+    left: 5%;
+    top: 3%;
+    transform: rotate(280deg);
+  }
+}
+/* .slide{
+  width: 50px;
+  height: 50px;
+  background: green;
+  position: absolute;
+  z-index: 10;
+  animation: slide infinite 6s;
+} */
