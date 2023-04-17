@@ -34,7 +34,7 @@
   }
 
   .carousel a {
-    padding-bottom: 20px;
+    padding-bottom: 60px;
   }
 
   footer .container {
@@ -196,8 +196,17 @@
   }
 
   .bottom_icons {
-    right: 17px;
+    right: 6px;
   }
+  .what_we_do .description p {
+    font-size: 11px;
+    }
+    .what_we_do{
+        padding-bottom: 20px;
+    }
+    .leafs {
+        padding: 0 15px;
+    }  
 }
 
 /* @media only screen and (max-width: 874px){
