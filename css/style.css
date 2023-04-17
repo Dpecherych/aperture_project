@@ -216,6 +216,10 @@ header nav ul li:last-of-type a {
   align-items: center;
   padding: 0 62px;
 }
+.carousel a {
+  max-width: 128px;
+  display: inline-block;
+}
 
 /* star */
 
@@ -662,6 +666,11 @@ footer .social_links .left_first p a {
 .bottom_icons li:nth-child(4):before {
   background-image: url(../images/IMAGE_icons4.svg);
   width: 10px;
+}
+
+.owl-stage{
+display: flex;
+align-items: center;
 }
 
 /* @keyframes slide {
